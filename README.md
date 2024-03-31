@@ -19,7 +19,3 @@ In terms of cuisine type, of the 25,994 restaurants found in the dataset, the la
 The largest proportion of inspected restaurant was located in Manhattan at 38.63% (or 10,041), followed by Brooklyn at 26.02 (or 6,763)%, and then Queens at 22.87% (or 5,946).
 
 The restaurant with the most violations was Master Wok in Brooklyn, who had 65 violation code write-ups. In a second-place tie with 59 violation code write-ups were Mee Sum Cafe, Sun Sai Gai Restaurant, and The Coppola Cafe, all in Manhattan. In third place was 3 Bros 99 Cent Pizza in Queens with 53 violation code write-ups.
-
-# Method
-
-1) I used the attached file 
