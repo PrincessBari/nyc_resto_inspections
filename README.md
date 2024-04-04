@@ -6,7 +6,7 @@ The API call made on 3/22/2024 - using the attached file **nyc_restos_3_24_2024.
 
 I also removed 2,721 rows that had a “0” value” in both the “latitude” and “longitude” columns - using the attached file **restos_2.ipynb** - leaving me with 216,457 rows. I wrote this new dataset set to the attached csv file **restos_3_mar_24.csv**, which was too large to attach. 
 
-Each row contains a violation code (or “N/A” if no code was found to be violated); a violation description; the restaurant name via a “dba” column and its “CAMIS” ID (record ID), phone number and address; inspection dates; scores; and other info. I wrote the dataset to a csv file, then imported it into Power BI where I created the visualizations and filters.
+Each row contains a violation code (or “N/A” if no code was found to be violated); a violation description; the restaurant name via a “dba” column and its “CAMIS” ID (record ID), phone number and address; inspection dates; scores; and other info. I wrote the dataset to a csv file, then imported it into Power BI where I created the visualizations and filters. I also read the file into Visual Studio Code via the file **restos_3_mar_24_vizzes.ipynb** and created visualizations in Python.
 
 In this dataset, there are 25,994 restaurants represented via their unique “CAMIS” IDs; restaurants appear once or many times because each row contains a different violation code and description. So if a restaurant was written up for 13 violation codes, the same CAMIS ID appears 13 times. (It was best to find unique restaurant locations via the CAMIS ID rather than the restaurant name appearing in the “dba” column because if it’s a franchise, then the same restaurant name appears multiple times across multiple unique CAMIS IDs.)
 
